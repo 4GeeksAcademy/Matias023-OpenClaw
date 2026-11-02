@@ -1,0 +1,26 @@
+# Credenciales y secretos
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secrets*
+*token*
+
+# Configuración y autenticación de OpenClaw
+openclaw.json
+auth-profiles.json
+*.sqlite
+*.sqlite-*
+*.log
+
+# Información personal del usuario
+USER.md
+
+# Archivos temporales
+*.tmp
+*.bak
+.DS_Store
+__pycache__/
